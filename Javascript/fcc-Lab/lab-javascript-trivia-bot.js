@@ -1,5 +1,3 @@
-** start of script.js **
-
 console.log("Hello! I'm your coding fun fact guide!");
 let botName = "Funbot";
 let botLocation = "metro";
@@ -13,6 +11,3 @@ console.log(codingFact);
 codingFact = botName + " this is  boring but i habe to include " + favoriteLanguage + ".";
 console.log(codingFact);
 console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".");
-
-** end of script.js **
-
