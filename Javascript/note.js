@@ -46,5 +46,10 @@ console.log(string[string.length - 1]);
 console.log("switch\"off\"");
 stg = "escape\n\'\"\\\string";
 console.log(stg);
-const userName = `swith ${stg} off`;
+const forName = "i am"
+const userName = `swithoff ${forName}.`;
 console.log(userName);
+let forLet1 = `this is ${stgi}`;
+console.log(forLet1);
+const forLet = `this is ${stgi}`;
+console.log(forLet);
