@@ -51,5 +51,13 @@ const userName = `swithoff ${forName}.`;
 console.log(userName);
 let forLet1 = `this is ${stgi}`;
 console.log(forLet1);
-const forLet = `this is ${stgi}`;
+const forLet = `this is ${stg}`;
 console.log(forLet);
+let fullLet = "making \n something long by adding " + forName + " " + userName + "." + " " + forLet + ", " + forLet1 + ".";
+console.log(fullLet);
+let fullLet2 = `making \n something
+long by adding ${forName} ${userName}`;
+console.log(fullLet2);
+console.log("hello world".indexOf("world"));
+console.log("freeCodeCamp".indexOf("F"))
+console.log(`hello world ${fullLet}.`.indexOf("l", 6));
