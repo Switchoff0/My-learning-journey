@@ -61,3 +61,6 @@ console.log(fullLet2);
 console.log("hello world".indexOf("world"));
 console.log("freeCodeCamp".indexOf("F"))
 console.log(`hello world ${fullLet}.`.indexOf("l", 6));
+console.log(fullLet2);
+console.log(fullLet2.length);
+console.log(fullLet2[fullLet2.length - 1]);
