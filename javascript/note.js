@@ -78,3 +78,8 @@ let exampleToUpperCase = toUpperCaseToLowerCaseMethod.toUpperCase();
 console.log(exampleToUpperCase);
 let exampleToLowerCase = toUpperCaseToLowerCaseMethod.toLowerCase();
 console.log(exampleToLowerCase);
+let trimMethod = "  Here's an example of trim,trimStart and trimEnd method.  "
+let trimExample = trimMethod.trim();
+console.log(trimExample.trim());
+console.log(trimMethod.trimStart());
+console.log(trimMethod.trimEnd());
