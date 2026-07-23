@@ -93,3 +93,16 @@ console.log(repeatMethod.repeat(0));
 let repeatTimes = 2;
 console.log(repeatMethod.repeat(repeatTimes));
 //let promptMethod = window.prompt("Hello!");
+//console.log(promptMethod);
+console.log("hi" * 0);
+let reminderOperator1 = 5;
+let reminderOperator2 = 10;
+console.log(reminderOperator1 % reminderOperator2);
+let exponantitionOperator1 = 2;
+let exponantitionOperator2 = 5;//its a power operator eg. 2*2*2*2*2=32
+console.log(exponantitionOperator1 ** exponantitionOperator2);
+let operatorPrecedence = 2 * 3 + 5 -1 * 8 / 4;
+console.log(operatorPrecedence);
+let typeOfPlusOperator = "Testing \"+\" operator with string and number" + 90;
+console.log(typeof typeOfPlusOperator)
+console.log("5" + 5);//if it was substraction operator was there then "5" string would have been converted to numner type it is called "type coercion"
