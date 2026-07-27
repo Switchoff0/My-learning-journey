@@ -106,3 +106,21 @@ console.log(operatorPrecedence);
 let typeOfPlusOperator = "Testing \"+\" operator with string and number" + 90;
 console.log(typeof typeOfPlusOperator)
 console.log("5" + 5);//if it was substraction operator was there then "5" string would have been converted to numner type it is called "type coercion"
+let increamentDecrementOperator = 3 / 1 * 1;
+console.log(increamentDecrementOperator);
+console.log(++increamentDecrementOperator);
+console.log(increamentDecrementOperator);
+let increamentDecrementOperator1 = 3 / 1 * 2;
+console.log(increamentDecrementOperator1);
+console.log(increamentDecrementOperator1++);
+console.log(increamentDecrementOperator1);
+console.log(increamentDecrementOperator);
+console.log(--increamentDecrementOperator);
+console.log(increamentDecrementOperator);
+console.log(increamentDecrementOperator1);
+console.log(increamentDecrementOperator1--);
+console.log(increamentDecrementOperator1);
+let compoundAssignmentOperator //"Provide a shorter way to perform an operation on a variable and assign the result back to that same variable. in js there is a CAO for every operator. eg."
+let additionAssignmentOperator = 26;
+additionAssignmentOperator += 4;
+console.log(additionAssignmentOperator);
