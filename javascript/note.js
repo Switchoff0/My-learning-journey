@@ -124,3 +124,7 @@ let compoundAssignmentOperator //"Provide a shorter way to perform an operation 
 let additionAssignmentOperator = 26;
 additionAssignmentOperator += 4;
 console.log(additionAssignmentOperator);
+let oldy = 1;
+let newy = oldy++;
+console.log(newy);
+console.log(oldy);
