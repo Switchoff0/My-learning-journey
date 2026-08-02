@@ -128,3 +128,13 @@ let oldy = 1;
 let newy = oldy++;
 console.log(newy);
 console.log(oldy);
+
+let typeOfTest = "so";
+console.log(typeof typeOfTest);
+typeOfTest = false; // As you learned in a previous lesson, booleans are a data type with only "true" and "false" values.A truthy value is a value that evaluates to true in a boolean context. "Examples of truthy values are:• Non-empty strings• Non-zero numbers• The boolean "true"" And other values you'll meet later on. so the string "so" is also "true".
+console.log(typeof typeOfTest);
+if (typeOfTest) {
+	console.log("yes its true")
+} else {
+	console.log("no its false")
+}
