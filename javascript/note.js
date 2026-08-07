@@ -120,7 +120,7 @@ console.log(increamentDecrementOperator);
 console.log(increamentDecrementOperator1);
 console.log(increamentDecrementOperator1--);
 console.log(increamentDecrementOperator1);
-let compoundAssignmentOperator //"Provide a shorter way to perform an operation on a variable and assign the result back to that same variable. in js there is a CAO for every operator. eg."
+let compoundAssignmentOperator; //"Provide a shorter way to perform an operation on a variable and assign the result back to that same variable. in js there is a CAO for every operator. eg."
 let additionAssignmentOperator = 26;
 additionAssignmentOperator += 4;
 console.log(additionAssignmentOperator);
@@ -138,3 +138,9 @@ if (typeOfTest) {
 } else {
 	console.log("no its false")
 }
+
+console.log(Math.random(1, 2, 5));
+const ranNum = Math.random();
+console.log(ranNum);
+
+console.log(Math.round(Math.sqrt(20)));
