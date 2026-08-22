@@ -6,7 +6,8 @@ let age = 22; // age is variable, 22 is value, data-type is Number ie 22
 console.log(age);
 age = 22.5;
 console.log(age);
-let x = 22; //bad variable name
+let x = 22;
+console.log(x);
 //bad variable name "let 2age = 23" variable can not start with Nnumber
 // valid variable name 
 let _age = 22
@@ -16,7 +17,8 @@ console.log($age);
 let Age = 23;
 console.log(Age);// Age and age re different variable
 // use naming convention lile camelCase
-let thisIsCamelCase;//this is undifined variable
+let thisIsCamelCase = "camel case example";//this was undifined variable
+console.log(thisIsCamelCase);
 const score = 100;
 console.log(score);
 //score = 150; now if you reassing the variable it will show syntex error
@@ -120,7 +122,8 @@ console.log(increamentDecrementOperator);
 console.log(increamentDecrementOperator1);
 console.log(increamentDecrementOperator1--);
 console.log(increamentDecrementOperator1);
-let compoundAssignmentOperator; //"Provide a shorter way to perform an operation on a variable and assign the result back to that same variable. in js there is a CAO for every operator. eg."
+let compoundAssignmentOperator = "below are the compound assignment operator example"; //"Provide a shorter way to perform an operation on a variable and assign the result back to that same variable. in js there is a CAO for every operator. eg."
+console.log(compoundAssignmentOperator);
 let additionAssignmentOperator = 26;
 additionAssignmentOperator += 4;
 console.log(additionAssignmentOperator);
@@ -144,3 +147,47 @@ const ranNum = Math.random();
 console.log(ranNum);
 
 console.log(Math.round(Math.sqrt(20)));
+
+console.log("1" === 1);
+console.log(1 === 1);
+console.log(NaN === NaN);//this is NaN peculiar property that it ia not equal to anything. So its hard to check if any thing is NaN.
+console.log(isNaN(NaN));
+console.log(isNaN(""));//convert to 0
+console.log(isNaN(" "));//convert to 0
+console.log("11");
+console.log(isNaN("20"));
+console.log(Number.isNaN("20"));
+console.log(isNaN(true));
+console.log(Number.isNaN("true"));
+console.log(isNaN(NaN));
+console.log(Number.isNaN(NaN));
+console.log(Number.isNaN("NaN"));
+
+const firstNo = 0;
+const secondNo = 0;
+let result = firstNo / secondNo;
+if (Number.isNaN(result)) {
+	result = "Error: Not a Number"
+} else {
+	result //no need for this else
+}
+console.log(result);
+
+let fresh = 1;
+console.log(++fresh);
+fresh -= 4;
+console.log(fresh);
+console.log(--fresh);
+fresh ++;
+console.log(fresh);
+if (fresh) {
+	console.log(true);
+} else {
+	console.log(false);
+}
+fresh = !fresh;
+if (fresh) {
+	console.log(true);
+} else {
+	console.log(false);
+}
