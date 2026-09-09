@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Survey Form</title>
+</head>
+
+<body>
+	<h1 id="title">nuvio Survey Form</h1>
+	<p id="description">Survey for a free, open-source media app.</p>
+	<form action="" id="survey-form">
+		<label id="name-label" for="name">Primary Profile:</label>
+		<input required id="name" type="text" placeholder="Profile Name" name="name">
+		<label id="email-label" for="email">Email:</label>
+		<input required type="email" id="email" name="email" placeholder="example@gmail.com">
+		<label id="number-label" for="number">Number of Profile:</label>
+		<input required type="number" id="number" name="number" min="1" max="6" placeholder="min-1 max-6">
+		<label for="dropdown">Pick your Screen</label>
+		<select name="devise" id="dropdown">
+			<option>Phone</option>
+			<option selected>TV</option>
+			<option>Desktop</option>
+			<option>Smart TV</option>
+		</select>
+		<label>Are you Supporter ?</label>
+		<input id="yes" type="radio" value="yes" name="supporter">
+		<label for="yes">Yes</label>
+		<input id="no" type="radio" value="no" name="supporter">
+		<label for="no">No</label>
+		<label>What do you most like about nuvio?</label>
+		<input type="checkbox" id="foss" name="most-like-feature" value="foss">
+		<label for="foss">free and open sourse</label>
+		<input type="checkbox" id="stremio" name="most-like-feature" value="stremio-addon">
+		<label for="stremio">Stremio addon support</label>
+		<input type="checkbox" id="profile" name="most-like-feature" value="profile">
+		<label for="profile">Multiple Profile</label>
+		<input type="checkbox" id="plugin" name="most-like-feature" value="plugin">
+		<label for="plugin">Plugin Support</label>
+		<input type="checkbox" id="collection" name="most-like-feature" value="collection">
+		<label for="collection">Collection Feature</label>
+		<input type="checkbox" id="integration" name="most-like-feature" value="integration">
+		<label for="integration">Integration such as tmdb, simkl,trakt</label>
+		<label for="comment">Any other comment?</label>
+		<textarea id="comment" type="text" name="comment" maxlength="50"></textarea>
+		<button type="submit" id="submit">Submit</button>
+	</form>
+</body>
+
+</html>
